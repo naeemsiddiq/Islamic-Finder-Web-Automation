@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Islamic Finder Test Suite">
+
+	<listeners>
+		<listener class-name="Listeners.TestListener" />
+		<listener class-name="Listeners.AnnotationTransformer" />
+	</listeners>
+
+	<test name="DateConverter Page">
+		<classes>
+			<class name="com.vdif.webautomation.dateconverter.TestDateConverter" />
+		</classes>
+	</test>
+
+	<test name="Inspirations Tasbeeh Widgets Athan Pages ">
+		<classes>
+			<class
+				name="com.vdif.webautomation.inspirations_tasbeeh_widgets_athan.TestInspirationsTasbeehWidgetsAthanPages" />
+		</classes>
+	</test>
+
+	<!-- IQRA Page is only testable on Live environment <test name="Iqra Page"> 
+		<classes> <class name="com.vdif.webautomation.iqra.TestIqraTheBlogPage" /> 
+		</classes> </test> -->
+	<test name="Islamic Calendar Page">
+		<classes>
+			<class
+				name="com.vdif.webautomation.islamiccalendar.TestIslamicCalendarPage" />
+		</classes>
+	</test>
+
+	<test name="Islamic Gallery Page">
+		<classes>
+			<class name="com.vdif.webautomation.islamicgallery.TestIslamicGallery" />
+		</classes>
+	</test>
+
+
+	<test name="Login Prayerbook Page">
+		<classes>
+			<class
+				name="com.vdif.webautomation.login_prayerbook.TestLoginAndPrayerbook" />
+		</classes>
+	</test>
+
+
+	<test name="Prayers Times Page">
+		<classes>
+			<class name="com.vdif.webautomation.prayertimes.TestPrayersTimesPage" />
+		</classes>
+	</test>
+
+	<test name="Top10 Cities Gregorian Monthly Prayer Times Page">
+		<classes>
+			<class
+				name="com.vdif.webautomation.prayertimes.TestTop10CitiesGregorianMonthlyPrayerTimes" />
+		</classes>
+	</test>
+
+	<test name="Top3 Cities Hijri Prayer Times Page">
+		<classes>
+			<class
+				name="com.vdif.webautomation.prayertimes.TestTop3CitiesHijriPrayerTimes" />
+		</classes>
+	</test>
+
+	<test name="Yearly Prayer Times Page">
+		<classes>
+			<class name="com.vdif.webautomation.prayertimes.TestYearlyPrayerTimes" />
+		</classes>
+	</test>
+
+	<test name="Qibla Direction Page">
+		<classes>
+			<class name="com.vdif.webautomation.qibladirection.TestQiblaDirection" />
+		</classes>
+	</test>
+
+	<test name="Ramadan 2017 Page">
+		<classes>
+			<class name="com.vdif.webautomation.ramadan2017.TestRamadan2017" />
+		</classes>
+	</test>
+
+	<test name="SignUp Page">
+		<classes>
+			<class name="com.vdif.webautomation.signup.TestSignUp" />
+		</classes>
+	</test>
+
+	<!-- Sprecial Islamic Days Page is not populated on Alpha,previously it 
+		was popultaed with 3 cards( 1-Upcoming Events Card, 2-Special Islamic Events 
+		Card, 3-All Islamic Events Card) <test name="Special Islamic Days Page"> 
+		<classes> <class name="com.vdif.webautomation.specialislamicdays.TestSpecialIslamicDays" 
+		/> </classes> </test> -->
+
+	<test name="Talk To Us Page">
+		<classes>
+			<class name="com.vdif.webautomation.talktous.TestTalkToUsPage" />
+		</classes>
+	</test>
+
+	<test name="World Page">
+		<classes>
+			<class name="com.vdif.webautomation.worldpage.TestWorldPage" />
+		</classes>
+	</test>
+
+	<test name="Zakat Calculator Page">
+		<classes>
+			<class
+				name="com.vdif.webautomation.zakatcalculator.TestZakatCalculatorPage" />
+		</classes>
+	</test>
+
+	<test name="Duas Page">
+		<classes>
+			<class name="com.vdif.webautomation.duas.TestDuasPage" />
+		</classes>
+	</test>
+
+	<test name="Hajj Page">
+		<classes>
+			<class name="com.vdif.webautomation.hajj.TestHajjPage" />
+		</classes>
+	</test>
+
+	<test name="Home Page">
+		<classes>
+			<class name="com.vdif.webautomation.homepage.TestHomePage" />
+		</classes>
+	</test>
+
+	<test name="AlQuran Page">
+		<classes>
+			<class name="com.vdif.webautomation.alquran.TestAlQuranPage" />
+		</classes>
+	</test>
+
+	<test name="Email Report">
+		<classes>
+			<class name="sendReport.SendReports" />
+		</classes>
+	</test>
+</suite>

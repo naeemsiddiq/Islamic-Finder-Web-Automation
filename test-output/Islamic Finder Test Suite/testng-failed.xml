@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Islamic Finder Test Suite]">
+  <listeners>
+    <listener class-name="Listeners.TestListener"/>
+    <listener class-name="Listeners.AnnotationTransformer"/>
+  </listeners>
+  <test name="Islamic Calendar Page(failed)">
+    <classes>
+      <class name="com.vdif.webautomation.islamiccalendar.TestIslamicCalendarPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testIslamicCalendarOnAugust1992"/>
+          <include name="testIslamicCalendarOnNovember2017"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.vdif.webautomation.islamiccalendar.TestIslamicCalendarPage -->
+    </classes>
+  </test> <!-- Islamic Calendar Page(failed) -->
+  <test name="Top10 Cities Gregorian Monthly Prayer Times Page(failed)">
+    <classes>
+      <class name="com.vdif.webautomation.prayertimes.TestTop10CitiesGregorianMonthlyPrayerTimes">
+        <methods>
+          <include name="testPrayerTimesInLondon"/>
+          <include name="testPrayerTimesInMelbourne"/>
+          <include name="testPrayerTimesInSydney"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.vdif.webautomation.prayertimes.TestTop10CitiesGregorianMonthlyPrayerTimes -->
+    </classes>
+  </test> <!-- Top10 Cities Gregorian Monthly Prayer Times Page(failed) -->
+  <test name="Top3 Cities Hijri Prayer Times Page(failed)">
+    <classes>
+      <class name="com.vdif.webautomation.prayertimes.TestTop3CitiesHijriPrayerTimes">
+        <methods>
+          <include name="testHijriPrayerTimesInSydney"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.vdif.webautomation.prayertimes.TestTop3CitiesHijriPrayerTimes -->
+    </classes>
+  </test> <!-- Top3 Cities Hijri Prayer Times Page(failed) -->
+  <test name="Yearly Prayer Times Page(failed)">
+    <classes>
+      <class name="com.vdif.webautomation.prayertimes.TestYearlyPrayerTimes">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testMonthGregorianHijriPrayerTimes"/>
+          <include name="testYearlyGregorianHijriPrayerTimes"/>
+        </methods>
+      </class> <!-- com.vdif.webautomation.prayertimes.TestYearlyPrayerTimes -->
+    </classes>
+  </test> <!-- Yearly Prayer Times Page(failed) -->
+  <test name="World Page(failed)">
+    <classes>
+      <class name="com.vdif.webautomation.worldpage.TestWorldPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="testSaudiArabiaOnWorldPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.vdif.webautomation.worldpage.TestWorldPage -->
+    </classes>
+  </test> <!-- World Page(failed) -->
+</suite> <!-- Failed suite [Islamic Finder Test Suite] -->
